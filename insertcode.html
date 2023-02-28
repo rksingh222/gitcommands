@@ -49,6 +49,14 @@
         to check why its not working (stuck in push)
         git fetch origin
         git push --verbose origin main
+        
+        git branch --set-upstream-to=origin/main
+        git config pull.ff only
+        
+        if nothing work and you stuck from before copy and paste your code somewhere
+        git reset --hard origin/main 
+        and paste the code again
+        git push -u origin main
 
     </div>
 </body>
